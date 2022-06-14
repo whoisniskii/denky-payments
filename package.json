@@ -1,6 +1,7 @@
 {
   "name": "denky-payments",
   "version": "0.0.1",
+  "description": "Payment system for denky labs services.",
   "main": "./build/index.js",
   "license": "MIT",
   "scripts": {

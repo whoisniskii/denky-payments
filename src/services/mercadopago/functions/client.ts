@@ -30,9 +30,3 @@ export class MercadoPagoClient {
     }
   }
 }
-
-// const deveDarErro = new MercadoPagoClient({ clientId: '', clientSecret: '', accessToken: '' });
-// const deveDarErro2 = new MercadoPagoClient({ clientId: '', accessToken: '' });
-// const deveFuncionar = new MercadoPagoClient({ clientId: '', clientSecret: '' });
-// const deveFuncionar2 = new MercadoPagoClient({ accessToken: '' });
-// console.log(deveDarErro, deveDarErro2, deveFuncionar, deveFuncionar2);
