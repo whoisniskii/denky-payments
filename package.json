@@ -1,0 +1,26 @@
+{
+  "name": "denky-payments",
+  "version": "0.0.1",
+  "main": "./build/index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "yarn lint:prettier && npx eslint src --fix",
+    "lint:prettier": "npx prettier -w src"
+  },
+  "exports": {
+    "./services/mercadopago": "./build/services/mercadopago",
+    "./mercadopago": "./build/services/mercadopago"
+  }, 
+  "devDependencies": {
+    "@types/node": "^17.0.42",
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2",
+    "typescript": "^4.7.3"
+  }
+}
