@@ -13,6 +13,7 @@
     "moduleResolution": "node",
     "typeRoots": [
       "node_modules/@types",
+      "src/typings"
     ],
     "esModuleInterop": true,
     "skipLibCheck": true,
